@@ -45,3 +45,8 @@ def fase(comple1):
    elif comple1[0]<0 and comple1[1]<0:
       d= math.pi
    return math.atan(comple1[1] / comple1[0]) + d    
+def conjugada(comple1):
+   """pre entra un numero complejo
+      pos sale el resultado del conjugado de un numero complejo"""
+   answ = [comple1[ 0 ],-comple1[ 1 ]]
+   return answ
