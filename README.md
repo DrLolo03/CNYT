@@ -36,7 +36,7 @@ La segunda Libreria "Libreria_ampliada" realiza las siguientes operaciones
 - Revisar si una matriz es unitaria
 - Revisar si una matriz es Hermitiana
 - Producto tensor de dos matrices/vectores
-# Así se revisa si una matriz es unitaria:
+# Así se hace la matriz conjugada:
 ~~~ 
 def MatrizConjugada(mat):
    """pre entran una matriz 
