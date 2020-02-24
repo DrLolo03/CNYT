@@ -38,12 +38,17 @@ La segunda Libreria "Libreria_ampliada" realiza las siguientes operaciones
 - Producto tensor de dos matrices/vectores
 # Así se revisa si una matriz es unitaria:
 ~~~ 
-def Unitaria( mat ):
-   """pre entra una matriz
-      pos sale el resultado de su matirz unitaria """
-   if len(mat)== len(mat[0]) :
-      adjoint = MatrizAdjunta( mat )
-      return ( MatrizMultip( mat , adjoint) == MatrizIdentidad( mat ) )and ( MatrizMultip( mat , adjoint)  == MatrizMultip( adjoint , mat) )
-   else:
-      print("no se puede")
+def MatrizConjugada(mat):
+   """pre entran una matriz 
+      pos sale el resultado de la matriz conjugada"""
+   if (type( mat[ 0 ][ 0 ])is int):
+      for x in range(len(mat)):
+         mat[ x ] = conjugada(mat[x])
+         return mat
+
+   for i in range(len( mat )):
+      for j in range(len( mat [ 0 ] )):
+         mat[ i ][ j ] = conjugada( mat[ i ][ j ] )
+
+   return mat
 ~~~ 
