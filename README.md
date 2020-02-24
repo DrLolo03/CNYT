@@ -1,7 +1,7 @@
 # CNYT
 # Autor : Lorenzo Marquez Pinto
 # fecha : 27/01/2020
-Esta es una libreria realizada en python para las siguientes operaciones entre números complejos:
+La primera libreria "Complejos" realizada en python se hizo para las siguientes operaciones entre números complejos:
 - Suma
 - Producto
 - Resta
@@ -10,7 +10,7 @@ Esta es una libreria realizada en python para las siguientes operaciones entre n
 - Conjugado
 - Conversión entre representaciones polar y cartesiano
 - Retornar la fase de un número complejo.
-# Así se hace la suma:
+# Así se hace la suma de complejos:
 ~~~ 
   def suma(comple1,comple2):
    """pre entran dos numeros complejos
@@ -18,3 +18,32 @@ Esta es una libreria realizada en python para las siguientes operaciones entre n
    comple3 = (comple1[0]+comple2[0],comple1[1]+comple2[1])
    return comple3 
 ~~~
+La segunda Libreria "Libreria_ampliada" realiza las siguientes operaciones 
+- Adición de vectores complejos.
+- Inverso (aditivo) de un vector complejo.
+- Multiplicación de un escalar por un vector complejo.
+- Adición de matrices complejas.
+- Inversa (aditiva) de una matriz compleja.
+- Multiplicación de un escalar por una matriz compleja.
+- Transpuesta de una matriz/vector
+- Conjugada de una matriz/vector
+- Adjunta (daga) de una matriz/vector
+- Producto de dos matrices (de tamaños compatibles)
+- Función para calcular la "acción" de una matriz sobre un vector.
+- Producto interno de dos vectores
+- Norma de un vector
+- Distancia entre dos vectores
+- Revisar si una matriz es unitaria
+- Revisar si una matriz es Hermitiana
+- Producto tensor de dos matrices/vectores
+# Así se revisa si una matriz es unitaria:
+~~~ 
+def Unitaria( mat ):
+   """pre entra una matriz
+      pos sale el resultado de su matirz unitaria """
+   if len(mat)== len(mat[0]) :
+      adjoint = MatrizAdjunta( mat )
+      return ( MatrizMultip( mat , adjoint) == MatrizIdentidad( mat ) )and ( MatrizMultip( mat , adjoint)  == MatrizMultip( adjoint , mat) )
+   else:
+      print("no se puede")
+~~~ 
