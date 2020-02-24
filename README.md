@@ -1,6 +1,6 @@
 # CNYT
 # Autor : Lorenzo Marquez Pinto
-# fecha : 27/01/2020
+# fecha : 22/02/2020
 La primera libreria "Complejos" realizada en python se hizo para las siguientes operaciones entre números complejos:
 - Suma
 - Producto
