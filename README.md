@@ -94,3 +94,5 @@ En ambos se ve la importancia de tener todos los archivos descargados en la mism
 
 # Construido con:
 Las librerias fueron construidas en el IDLE de python y en JETBRAINS PYCHARM de las ultimas versiones hasta la fecha(24/02/2020)
+# Licencia
+Este proyecto esta bajo Licencia de uso libre https://github.com/DrLolo03/CNYT/blob/master/LICENSE para mas informacion
