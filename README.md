@@ -11,7 +11,7 @@ Para poder usar esta libreria se necesita una herramienta que lea/corra Python
  -Escojer la correspondiente a su computador
  -Descargar la version escogida
  -una vez descargada instalarla segun lo indique el instalador y siguiendo las recomendaciones que tiene
-
+# Contenido 
 La primera libreria "Complejos" realizada en python se hizo para las siguientes operaciones entre números complejos:
 - Suma
 - Producto
@@ -21,7 +21,7 @@ La primera libreria "Complejos" realizada en python se hizo para las siguientes 
 - Conjugado
 - Conversión entre representaciones polar y cartesiano
 - Retornar la fase de un número complejo.
-# Así se hace la suma de complejos:
+#    Así se hace la suma de complejos:
 ~~~ 
   def suma(comple1,comple2):
    """pre entran dos numeros complejos
@@ -47,7 +47,7 @@ La segunda Libreria "Libreria_ampliada" realiza las siguientes operaciones
 - Revisar si una matriz es unitaria
 - Revisar si una matriz es Hermitiana
 - Producto tensor de dos matrices/vectores
-# Así se hace la matriz conjugada:
+#   Así se hace la matriz conjugada:
 ~~~ 
 def MatrizConjugada(mat):
    """pre entran una matriz 
@@ -63,7 +63,7 @@ def MatrizConjugada(mat):
 
    return mat
 ~~~ 
-# Pruebas
+#    Pruebas
 Para ejecutar las pruebas correspondientes se deben tener todos los archivos del repositorio descargados ya que unos se llaman a otros para poder ejectuar las pruebas.
 Ejemplo:
 De la libreria "Libreria_ampliada" tomo este fracmento de codigo 
