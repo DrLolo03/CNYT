@@ -1,4 +1,5 @@
 import Libreria_ampliada
+
 def probabilidad(posicion, vector):
     total =0
     for i in vector:
